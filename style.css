@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*  Header */
+
+.cabeza {
+    background-color: lightcyan;
+    height: 10%;
+    width: 100;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.barranav {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.itemnav {
+
+    width: 10px;
+    height: 10px;
+    color: blue;
+
+}
+
+/* carrousel */
+
+.carrousel {
+    padding: 5px 5px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+/* links - servicios */
+
+.secciona {
+    margin: 10px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.seccionb {
+    margin: 10px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+/* marco que rodea al mapa ? */
+
+/* contendor formulario */
+
+.contenedor-formulario {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    
+}
+
+
+
+
+
+
