@@ -74,12 +74,26 @@
 
 
 /* Footer - Contenedro redes sociales */
+
+.rrss {
+    background-color: beige;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+  }
 .rrss-container {
+    display: flex;
     flex-direction: column;
+
 }
 
 
 /* boton watsapp */
+.wp-boton {
+    background-color: aquamarine;
+    
+}
 
 
 
