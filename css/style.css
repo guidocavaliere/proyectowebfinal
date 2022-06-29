@@ -5,6 +5,21 @@
 
 }
 
+
+
+/* Clases unicamente utilizadas en bootstrap - index y barra de navegacion */
+
+.caboot {
+    background-color: bisque;
+}
+
+.foot {
+    background-color: mediumaquamarine;
+}
+
+
+
+
 /*  Header */
 
 .cabeza {
