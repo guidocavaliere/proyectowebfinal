@@ -13,6 +13,12 @@
     background-color: bisque;
 }
 
+.bsitemnav:hover {
+    color: beige !important;
+    background-color: brown;
+
+}
+
 .foot {
     background-color: mediumaquamarine;
 }
@@ -255,7 +261,9 @@
 
 
 
-/* media queries servicios y sucursales*/
+/* Media Queries*/
+
+/* Pantalla Moviles */
 
 
 @media screen and (min-width: 350px) {
@@ -298,16 +306,13 @@
         background-color: salmon;
         border-style: solid;
         padding-left: 5px;
-        font-size: 5rem auto;
-        margin: 5rem auto;
+        
     }
 
-    .foot {
-        font-size: 5rem auto;
-        margin: 5rem auto;
-    }
     
 }
+
+/* Tablets */
 
 @media screen and (min-width: 600px) {
     .servicios {
@@ -344,16 +349,13 @@
         background-color: salmon;
         border-style: solid;
         padding-left: 5px;
-        font-size: 5rem auto;
         margin: 5rem auto;
+    
     }
 
-    .foot {
-        font-size: 5rem auto;
-        margin: 5rem auto;
-    }
-    
 }
+
+/* Monitor PC */
 
 @media screen and (min-width: 1024px) {
     .servicios {
@@ -389,22 +391,20 @@
         background-color: salmon;
         border-style: solid;
         padding-left: 5px;
-        font-size: 5rem auto;
         margin: 5rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, auto);
+        
     }
 
-    .foot {
-        font-size: 5rem auto;
-        margin: 5rem auto;
-    }
-    
     
 }
 
 
 
 
-/* contendor formulario */
+/* contendor formulario  - PRE BOOTSTRAP
 
 .contenedor-formulario {
     height: 500px;
@@ -414,9 +414,9 @@
     justify-content: center;
     
 }
+*/
 
-
-/* Footer - Contenedor redes sociales */
+/* Footer - Contenedor redes sociales  - pre bootstrap
 
 .rrss {
     background-color: beige;
@@ -444,3 +444,4 @@
 .warapp:hover {
     transform: translate(-20px, 10px);
 }
+*/
