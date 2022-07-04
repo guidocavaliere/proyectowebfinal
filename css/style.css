@@ -17,11 +17,41 @@
     background-color: mediumaquamarine;
 }
 
+/* Clases unicamente utilizadas en bootstrap - formulario */
+
+.formulario {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    animation: changeColorForm 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColorForm { 
+
+    0% { 
+        background-color: lightgray;
+    }
+    15% {
+        background-color: gold;
+    }
+    25% {
+        background-color: slateblue;
+    }
+    50% {
+        background-color: lightyellow;
+    }
+    100% {
+        background-color: gainsboro;
+    }
+    
+    }
 
 
 
 /*  Header */
-
+/*  pre bootstrap
 .cabeza {
     background-color: lightcyan;
     height: 70px;
@@ -77,7 +107,7 @@
     height: 10px;
     color: blue;
 
-}
+} */
 
 /* carrousel */
 
@@ -96,6 +126,18 @@
     
 }
 
+/* Area de servicios - titulo */
+.titulo {
+    border-color: black;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    background-color: salmon;
+    border-style: solid;
+    padding-left: 5px;
+    font-size: 5vw;
+}
+
 /* Area de servicios - Grid */
 
 .servicios {
@@ -104,7 +146,7 @@
     height: auto;
     grid-template-columns: repeat(3, 450px);
     grid-template-rows: repeat(2, auto);
-    grid-template-areas: 
+    grid-template-areas: "titulo - -"
         "serv1-card serv2-card serv3-card"
         "serv4-card serv5-card serv6-card";
     grid-gap: 20px;
@@ -224,7 +266,8 @@
         height: auto;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, auto);
-        grid-template-areas: "serv1-card" 
+        grid-template-areas: "titulo"
+        "serv1-card" 
         "serv2-card"
         "serv3-card"
         "serv4-card"
@@ -247,6 +290,23 @@
         grid-gap: 10px;
         margin: 5rem auto;
     }
+
+    .titulo {
+        border-color: black;
+        border-top: 5px;
+        border-left: 5px;
+        border-right: 5px;
+        background-color: salmon;
+        border-style: solid;
+        padding-left: 5px;
+        font-size: 5rem auto;
+        margin: 5rem auto;
+    }
+
+    .foot {
+        font-size: 5rem auto;
+        margin: 5rem auto;
+    }
     
 }
 
@@ -257,9 +317,10 @@
         height: auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
-        grid-template-areas: "serv1-card serv2-card" 
-                            "serv3-card serv4-card"
-                            "serv5-card serv6-card";
+        grid-template-areas: "titulo -"
+        "serv1-card serv2-card" 
+        "serv3-card serv4-card"
+        "serv5-card serv6-card";
         grid-gap: 10px;
         margin: 5rem auto;
     }
@@ -273,6 +334,23 @@
         grid-template-areas: "suc1 suc2"
             "suc3 suc4";
         grid-gap: 10px;
+        margin: 5rem auto;
+    }
+
+    .titulo {
+        border-color: black;
+        border-top: 5px;
+        border-left: 5px;
+        border-right: 5px;
+        background-color: salmon;
+        border-style: solid;
+        padding-left: 5px;
+        font-size: 5rem auto;
+        margin: 5rem auto;
+    }
+
+    .foot {
+        font-size: 5rem auto;
         margin: 5rem auto;
     }
     
@@ -285,8 +363,9 @@
         height: auto;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, auto);
-        grid-template-areas: "serv1-card serv2-card serv3-card"
-                            "serv4-card serv5-card serv6-card";
+        grid-template-areas: "titulo - -"
+        "serv1-card serv2-card serv3-card"
+        "serv4-card serv5-card serv6-card";
         grid-gap: 10px;
         margin: 5rem auto;
     }
@@ -302,6 +381,24 @@
         grid-gap: 10px;
         margin: 5rem auto;
     }
+
+    .titulo {
+        border-color: black;
+        border-top: 5px;
+        border-left: 5px;
+        border-right: 5px;
+        background-color: salmon;
+        border-style: solid;
+        padding-left: 5px;
+        font-size: 5rem auto;
+        margin: 5rem auto;
+    }
+
+    .foot {
+        font-size: 5rem auto;
+        margin: 5rem auto;
+    }
+    
     
 }
 
