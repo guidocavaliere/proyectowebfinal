@@ -11,11 +11,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 <body>
-
-    <!-- scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
         
     
         <!-- Estructura de cabeza BS-->
@@ -38,28 +33,36 @@
 
     <!-- Formulario en BS -->
     <section class="formulario">
-        <div class="row g-3">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        <div style="height: 100px" class="row g-3">
+            <div class="col-4 mx-auto">
+              <label for="exampleFormControlInput1" class="form-label">Nombre (requerido)</label>
+              <input type="text" class="form-control" placeholder="Juan" aria-label="First name">
             </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            <div class="col-4 mx-auto">
+              <label for="exampleFormControlInput1" class="form-label">Apellido (requerido)</label>
+              <input type="text" class="form-control" placeholder="Perez" aria-label="Last name">
             </div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Direccion de Correo Electronico</label>
+        </div>
+        
+        <div style="height: 100px" class="mb-3 col-10 mx-auto">
+            <label for="exampleFormControlInput1" class="form-label">Direccion de Correo Electronico (requerido)</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="abcd@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+        </div>
+          
+        <div style="height: 100px" class="mb-3 col-10 mx-auto">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentarios (requerido)</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+        </div>
+
+        <div style="padding: 50px"class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary btn-lg" type="button">Enviar</button>
+        </div>
 
     </section>
 
 
     <!-- Redes y copyright con bootstrap -->
-    <footer class="foot">
+    <footer>
         <div class="container-fluid col-md-4 d-flex align-items-center bg-light.bg-opacity-50" style = "height: 35px;">
             <span class="mb-3 mb-md-0 text-muted">© Todos los derechos reservados</span>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -114,6 +117,12 @@
         </div>
 
     </footer> -->
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
     
 </body>
 </html>

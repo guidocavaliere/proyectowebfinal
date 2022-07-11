@@ -1,0 +1,52 @@
+
+
+
+
+/* contendor formulario  - PRE BOOTSTRAP
+
+.contenedor-formulario {
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    
+}
+*/
+
+
+
+/* Clases unicamente utilizadas en bootstrap - formulario */
+
+.formulario {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    animation: changeColorForm 4s;
+    animation-iteration-count: infinite;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+}
+
+@keyframes changeColorForm { 
+
+    0% { 
+        background-color: lightgray;
+    }
+    15% {
+        background-color: gold;
+    }
+    25% {
+        background-color: slateblue;
+    }
+    50% {
+        background-color: lightyellow;
+    }
+    100% {
+        background-color: gainsboro;
+    }
+    
+    }

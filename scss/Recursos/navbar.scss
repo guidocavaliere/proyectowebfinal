@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Clases unicamente utilizadas en bootstrap - index y barra de navegacion */
+
+.caboot {
+    background-color: bisque;
+}
+
+.bsitemnav:hover {
+    color: beige !important;
+    background-color: brown;
+
+}
+
+
+
+
+
+/* Header pre bootstrap
+.cabeza {
+    background-color: lightcyan;
+    height: 70px;
+    width: 100;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    animation: changeColor 4s;
+    animation-iteration-count: infinite;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+@keyframes changeColor { 
+
+0% { 
+    background-color: lightgreen;
+}
+15% {
+    background-color: lightcoral;
+}
+25% {
+    background-color: grey;
+}
+50% {
+    background-color: lightblue;
+}
+100% {
+    background-color: wheat;
+}
+
+}
+    
+
+
+.barranav {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+    
+}
+
+.itemnav {
+
+    width: 10px;
+    height: 10px;
+    color: blue;
+
+} */
+
+/* carrousel 
+
+.carrousel {
+    padding: 5px 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+
+}
+
+.ima {
+    height: 700px;
+    width: 100%;      
+}
+*/

@@ -1,0 +1,42 @@
+
+/* Area de sucursales */
+
+.sucursales {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 450px);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "suc1 suc2" 
+        "suc3 suc4";
+    grid-gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.suc-main {
+    background-color: darkred;
+    width: 100%;
+}
+
+.suc-titulo {
+    color: silver;
+    text-align: center;
+}
+
+.suc1 {
+    grid-area: suc1;
+}
+
+.suc2 { 
+    grid-area: suc2;
+}
+
+.suc3 {
+    grid-area: suc3;
+}
+
+.suc4 {
+    grid-area: suc4;
+}
+

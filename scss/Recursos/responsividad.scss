@@ -1,0 +1,164 @@
+
+/* Media Queries*/
+
+/* Pantalla Moviles */
+
+
+@media screen and (min-width: 0px) and (max-width: 350px) {
+    .servicios {
+        display: grid;
+        width: 90%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas: "titulo"
+        "serv1-card" 
+        "serv2-card"
+        "serv3-card"
+        "serv4-card"
+        "serv5-card"
+        "serv6-card";
+        grid-gap: 10px;
+        margin: 5rem auto;
+    }
+    
+    .sucursales {
+        display: grid;
+        width: 90%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: "suc1"
+        "suc2"
+        "suc3"
+        "suc4";
+        grid-gap: 10px;
+        margin: 5rem auto;
+    }
+
+    .titulo {
+        border-color: black;
+        border-top: 5px;
+        border-left: 5px;
+        border-right: 5px;
+        background-color: salmon;
+        border-style: solid;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+}
+
+/* Tablets */
+
+@media screen and (min-width: 351px) and (max-width: 1023px) {
+    .servicios {
+        display: grid;
+        width: 90%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "titulo -"
+        "serv1-card serv2-card" 
+        "serv3-card serv4-card"
+        "serv5-card serv6-card";
+        grid-gap: 10px;
+        margin: 5rem auto;
+    }
+
+    .sucursales {
+        display: grid;
+        width: 90%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "suc1 suc2"
+            "suc3 suc4";
+        grid-gap: 10px;
+        margin: 5rem auto;
+    }
+
+    .titulo {
+        border-color: black;
+        border-top: 5px;
+        border-left: 5px;
+        border-right: 5px;
+        background-color: salmon;
+        border-style: solid;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+    
+    }
+
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+}
+
+/* Monitor PC */
+
+@media screen and (min-width: 1024px) {
+    .servicios {
+        display: grid;
+        width: 90%;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "titulo - -"
+        "serv1-card serv2-card serv3-card"
+        "serv4-card serv5-card serv6-card";
+        grid-gap: 10px;
+        margin: 5rem auto;
+    }
+
+    .sucursales {
+        display: grid;
+        width: 90%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "suc1 suc2"
+            "suc3 suc4";
+        grid-gap: 10px;
+        margin: 5rem auto;
+    }
+
+    .titulo {
+        border-color: black;
+        border-top: 5px;
+        border-left: 5px;
+        border-right: 5px;
+        background-color: salmon;
+        border-style: solid;
+        padding-left: 5px;
+        margin: 5rem auto;
+        display: flex;
+        align-items: center;
+
+        
+    }
+
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    
+}
+
