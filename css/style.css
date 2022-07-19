@@ -169,7 +169,7 @@
 }
 
 /* Clases unicamente utilizadas en bootstrap - index y barra de navegacion */
-.caboot {
+.barra {
   background-color: bisque;
 }
 
@@ -413,6 +413,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.mapa1 {
+  background-color: rgb(109, 85, 41);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,7 +14,7 @@
         
     
         <!-- Estructura de cabeza BS-->
-    <header class="caboot">
+    <header class="barra">
         <nav class="navbar bg-light.bg-opacity-50">
             <div class="container-fluid justify-content-around">
               <a class="navbar-brand" href="#">
@@ -33,31 +33,40 @@
 
     <!-- Formulario en BS -->
     <section class="formulario">
-        <div style="height: 100px" class="row g-3">
-            <div class="col-4 mx-auto">
-              <label for="exampleFormControlInput1" class="form-label">Nombre (requerido)</label>
-              <input type="text" class="form-control" placeholder="Juan" aria-label="First name">
+        <form class="row g-3 d-flex flex-column align-items-stretch needs-validation" novalidate>
+            <div style="height: 100px" class="row g-3">
+                <div class="col-4 mx-auto">
+                    <label for="validationTooltip01" class="form-label">Nombre (requerido)</label>
+                    <input type="text" class="form-control" id="validationTooltip01" required>
+                    <div class="valid-tooltip">Correcto</div>
+                    <div class="invalid-tooltip">Porfavor indicar Nombre</div>
+                </div>
+                <div class="col-4 mx-auto">
+                    <label for="validationTooltip02" class="form-label">Apellido (requerido)</label>
+                    <input type="text" class="form-control" id="validationTooltip02" required>
+                    <div class="valid-tooltip">Correcto</div>
+                    <div class="invalid-tooltip">Porfavor indicar Apellido</div>
+                </div>
             </div>
-            <div class="col-4 mx-auto">
-              <label for="exampleFormControlInput1" class="form-label">Apellido (requerido)</label>
-              <input type="text" class="form-control" placeholder="Perez" aria-label="Last name">
+            
+            <div style="height: 100px" class="mb-3 col-10 mx-auto">
+                <label for="validationTooltip03" class="form-label">Direccion de Correo Electronico (requerido)</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="valid-tooltip">Correcto</div>
+                <div class="invalid-tooltip">Porfavor indicar un e-mail correcto</div>                
             </div>
-        </div>
-        
-        <div style="height: 100px" class="mb-3 col-10 mx-auto">
-            <label for="exampleFormControlInput1" class="form-label">Direccion de Correo Electronico (requerido)</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="abcd@example.com">
-        </div>
-          
-        <div style="height: 100px" class="mb-3 col-10 mx-auto">
-            <label for="exampleFormControlTextarea1" class="form-label">Comentarios (requerido)</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+            
+            <div style="height: 100px" class="mb-3 col-10 mx-auto">
+                <label for="validationTooltip04" class="form-label">Comentarios (requerido)</label>
+                <input type="text" class="form-control" id="validationTooltip04" rows="3" required>
+                <div class="valid-tooltip">Correcto</div>
+                <div class="invalid-tooltip">Porfavor indicar comentarios</div> 
+            </div>
 
-        <div style="padding: 50px"class="d-grid gap-2 col-2 mx-auto">
-          <button class="btn btn-secondary btn-lg" type="button">Enviar</button>
-        </div>
-
+            <div style="padding: 50px"class="d-grid gap-4 col-2 mx-auto">
+            <button class="btn btn-secondary btn-lg" type="submit">Enviar</button>
+            </div>
+        </form>
     </section>
 
 
