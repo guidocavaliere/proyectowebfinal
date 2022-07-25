@@ -104,6 +104,7 @@
   grid-gap: 20px;
   margin-top: 20px;
   justify-content: center;
+  background-color: burlywood;
 }
 
 .cards {
@@ -298,6 +299,7 @@ footer {
     grid-template-areas: "titulo" "serv1-card" "serv2-card" "serv3-card" "serv4-card" "serv5-card" "serv6-card";
     grid-gap: 10px;
     margin: 5rem auto;
+    background-color: burlywood;
   }
   .sucursales {
     display: grid;
@@ -338,6 +340,7 @@ footer {
     grid-template-areas: "titulo -" "serv1-card serv2-card" "serv3-card serv4-card" "serv5-card serv6-card";
     grid-gap: 10px;
     margin: 5rem auto;
+    background-color: burlywood;
   }
   .sucursales {
     display: grid;
@@ -378,6 +381,7 @@ footer {
     grid-template-areas: "titulo - -" "serv1-card serv2-card serv3-card" "serv4-card serv5-card serv6-card";
     grid-gap: 10px;
     margin: 5rem auto;
+    background-color: burlywood;
   }
   .sucursales {
     display: grid;
